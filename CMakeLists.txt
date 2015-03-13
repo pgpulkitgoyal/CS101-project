@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(CS101)
+find_package( OpenCV REQUIRED )
+add_executable( CS101 CS101.cpp )
+target_link_libraries( CS101  ${OpenCV_LIBS} )

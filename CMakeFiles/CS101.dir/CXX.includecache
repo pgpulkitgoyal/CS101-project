@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pgpulkitgoyal/Desktop/Image processing/CS101.cpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/highgui/highgui_c.h
+-
+iostream
+-
+
